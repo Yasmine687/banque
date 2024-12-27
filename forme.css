@@ -1,0 +1,114 @@
+body
+{
+    /*background-image: linear-gradient(to bottom, #2b1450, #402b5d, #55436a, #685b77, #7c7484);*/
+    background-image: radial-gradient(circle, #2b1450, #391e5f, #47286e, #55337d, #643e8d, #6b4792, #734f97, #7a589c, #7b5f96, #7b6690, #7c6d8a, #7c7484);
+}
+fieldset
+{   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+input[type="text"],input[type="password"],input[type="email"],select
+{
+    width: 95%;
+    padding:3px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px white;
+    text-align: center;
+    background-color: white;
+}
+input[type="submit"],input[type="reset"]
+{
+    font-size: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 20px;
+    background-image: radial-gradient(circle, #d685e3, #d58ee9, #d597ee, #d5a0f3, #d5a8f8, #d1a7f7, #cda5f7, #c9a4f6, #bf99f0, #b48eea, #aa83e4, #9f78de);
+    
+}
+h2
+{
+    text-align: center;
+    font-size: 2em;
+    background-image: linear-gradient(to right top, #b0a8ba, #a9a9c1, #9dacc6, #8fafc9, #80b2c9);
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px white;
+    color: #2b1450;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+legend
+{
+    text-align: center;
+    font-size: 2em;
+    background-image: linear-gradient(to right top, #b0a8ba, #a9a9c1, #9dacc6, #8fafc9, #80b2c9);
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px white;
+
+}
+p
+{
+    
+    text-align: center;
+    font-size: 1.4em;
+    background-color: #D6B3FE;  
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px white;
+    
+}
+input[type="email"]:focus
+{
+    background-color: #003E82;
+    color: white;
+}
+input[type="password"]:focus
+{
+    background-color: #003E82;
+    color: white;
+
+
+}
+input[type="text"]:focus
+{
+    background-color: #003E82;
+    color: white;
+
+
+}
+nav
+{
+    width: 25%;
+    float: left;
+}
+section
+{
+    width: 73%;
+    float: right;
+}
+iframe
+{
+    width: 100%;
+    height: 640px;
+}
+ul
+{
+    /*padding: 60px;*/
+    list-style-type: none;
+}
+li
+{
+    
+
+    border: 1.5px solid white;
+    border-radius: 20px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #98d4d9, #8acbd6, #7dc3d3, #71bad0, #66b1cd, #5eabca, #56a4c6, #4e9ec3, #4698bf, #3d93bb, #348db7, #2a88b3);
+    margin: 8px 8px;
+}
+a
+{
+    text-decoration: none;
+    font-weight: solid;
+    font-size: 2em;
+    color: white;
+}

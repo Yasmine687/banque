@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="forme.css">
+    <script src="test.js"></script>
+    <title>inscription</title>
+</head>
+<body>
+    <!--form>fieldset>legend+(p>label+input:text)*5+(p>(input:radio+label)*2)+p>input:reset+input:submit-!->-->
+    
+    
+    <form action="inscription.php" name="f" id="f" method="post" onsubmit="return verif1()" >
+        <fieldset>
+            <legend>Obtenir votre Compte Boursorama Banque</legend>
+            <p>
+                <label for="ncin">Ncin</label>
+                <input type="text" name="ncin" id="ncin" maxlength="8">
+            </p>
+            <p>
+                <label for="nom">Nom</label>
+                <input type="text" name="nom" id="nom" maxlength="30">
+            </p>
+            <p>
+                <label for="pre">Prenom</label>
+                <input type="text" name="pre" id="pre">
+            </p>
+            <p>
+                <label for="mdp">Mot De Passe</label>
+                <input type="password" name="mdp" id="mdp" maxlength="4">
+            </p>
+            <p>
+                <label for="mil">E-mail</label>
+                <input type="email" name="mil" id="mil">
+            </p>
+            <p class="cp" id="cp">
+                <input type="radio" name="cp" id="cp1" value="CC">
+                <label for="cp1">Compte Courant</label>
+                <input type="radio" name="cp" id="cp2" value="CE">
+                <label for="cp2"> Compte Epargne</label>
+            </p>
+            <div>
+                <input type="submit" value="Valider" name="b1" id="b1">
+                <input type="reset" value="Annuler" name="b2" id="b2">               
+            </div>
+        </fieldset>
+    </form>
+
+</body>
+</html>

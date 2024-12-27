@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="forme.css">
+    <script src="test.js"></script>
+    <title>operation</title>
+</head>
+<body onload="return date()" >
+    <form action="operation.php" name="f" id="f" method="post" onsubmit="return verif2()">
+        <fieldset>
+            <legend>Gérer votre Compte Boursorama Banque</legend>
+            <h2 id="dte"></h2>
+            <p>
+                <label for="rib">Rib</label>
+                <input type="text" name="rib" id="rib" maxlength="8">
+            </p>
+            <p>
+                <label for="mdp">Mot De Passe</label>
+                <input type="text" name="mdp" id="mdp" maxlength="4">
+            </p>
+            <p>
+                <label for="">Opération</label>
+                <select name="op" id="op">
+                    <option value="">choisir votre opération</option>
+                    <option value="V">versement</option>
+                    <option value="R">retrait</option>
+                </select>
+            </p>
+            <p>
+                        <label for="mnd">Montant</label>
+                        <input type="text" name="mnd" id="mnd">
+            </p>
+            <div>
+                <input type="submit" value="Valider">
+                <input type="reset" value="Annuler">
+            </div>
+            
+        </fieldset>
+    </form>
+</body>
+</html>
